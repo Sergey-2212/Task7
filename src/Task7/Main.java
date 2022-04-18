@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         var bowl = new Bowl();
-        bowl.putFood(130);
+        bowl.putFood(150);
         Cat[] cats = Cat.initialize(7);
         for (Cat cat: cats
              ) { cat.isFullness();
